@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.jingle_demo.widget.UserPhotoView
+            android:id="@+id/upv_user_details_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin4"
+            android:orientation="horizontal">
+
+            <com.example.jingle_demo.widget.UserPhotoView
+                android:id="@+id/upv_user_details_photo_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.jingle_demo.widget.UserPhotoView
+                android:id="@+id/upv_user_details_photo_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.jingle_demo.widget.UserPhotoView
+                android:id="@+id/upv_user_details_photo_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_user_details_name"
+            style="@style/HeadLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginRight="@dimen/margin8"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black87"/>
+
+        <TextView
+            android:id="@+id/tv_user_datails_job"
+            style="@style/JobLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginRight="@dimen/margin8"
+            android:layout_marginTop="@dimen/margin4"
+            android:gravity="center_horizontal"
+            android:background="@color/red"
+            android:maxLines="2" />
+
+        <!--PercentProgressBar-->
+
+        <!--WhatIfFieldView-->
+
+        <!--TypefaceTextView -->
+
+        <!-- EducationFieldView -->
+
+        <!-- AboutTagsView -->
+    </LinearLayout>
+</merge>
